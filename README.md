@@ -49,12 +49,12 @@ npm install
 
 #### 4. Start the development server:
 
-npm start
+```npm start```
 
 
 #### 5. Open your browser and go to:
 
-http://localhost:3000
+```http://localhost:3000```
    
 
 ## 📁 Project Structure
@@ -66,7 +66,7 @@ http://localhost:3000
 │   └── style.css
 ├── server.js
 ├── .env
-└── README.md ``` 
+└── README.md``` 
 
 
 ## 🧪 Notes
