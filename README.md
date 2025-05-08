@@ -58,7 +58,7 @@ http://localhost:3000
    
 
 ## 📁 Project Structure
-money-money/
+ ```money-money/
 ├── public/
 │   └── index.html
 ├── src/
@@ -66,7 +66,7 @@ money-money/
 │   └── style.css
 ├── server.js
 ├── .env
-└── README.md
+└── README.md ``` 
 
 
 ## 🧪 Notes
