@@ -35,16 +35,16 @@ A simple and responsive currency converter app that allows users to convert betw
 
 #### 1. Clone the repository:
 
-git clone https://github.com/your-username/money-money.git
+```git clone https://github.com/your-username/money-money.git```
 
 #### 2. Navigate into the project folder: 
 
-cd money-money
+```cd money-money```
 
 
 #### 3. Install dependencies:
 
-npm install
+```npm install```
 
 
 #### 4. Start the development server:
