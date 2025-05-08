@@ -1,0 +1,240 @@
+:root {
+  --g-bg-color: rgba(212, 212, 212 0.68);
+  --g-text-color: #034122;
+  --g-input-file: #D9D9D9;
+  --g-button: #65AC77;
+  --g-second-text-color: #27744E;
+  --g-main-bg: #61A873;
+
+  --p-bg-color: rgba(228, 205, 221, 0.68);
+  --p-text-color: #4C1208;
+  --p-input-file: #CA99AB;
+  --p-button: #bb586a;
+  --p-second-text-color: #7B1D26;
+  --p-main-bg: #aa616f;
+  /* (212, 212, 212, 68); фон
+034122; букви верхні і цифри
+27744E; UAH
+D9D9D9; фон для малих  
+65AC77 кнопка*/
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  color-scheme: light dark;
+  /* color: #034122;
+  background-color: #61A873; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+.container {
+  margin: 40px;
+  /* background-color: rgb(212, 212, 212, 0.68); */
+  width: 300;
+  height: 270;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 42px ;
+  position: relative;
+}
+
+.one-convert {
+  /* color: #034122; */
+  font-weight: 900;
+  padding: 0 10px 22px 10px;
+  margin: 0;
+}
+
+.one-convert .currency {
+  font-weight: 300;
+  color: #2f8b3d;
+}
+
+.theme{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  right: 20px;
+  top: 20px;
+  border-radius: 50%;
+  border: none;
+
+}
+
+.amount {
+  /* background-color: #D9D9D9; */
+  max-width: 216px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 15px;
+}
+
+.input {
+  border: none;
+  width: 90px;
+  /* background-color: #D9D9D9;
+  color: #034122; */
+  font-weight: 900;
+  font-size: 16px;
+  text-align: left;
+  appearance: textfield;           
+  -moz-appearance: textfield;      
+  -webkit-appearance: none;
+  font-family: "Inter", sans-serif;
+  
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.result {
+  max-width: 100px;
+  /* background-color: #D9D9D9;
+  color: #034122; */
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.select{
+  /* background-color: #D9D9D9;
+  color: #27744E; */
+  font-weight: 900;
+  font-size: 16px;
+  border: none;
+  font-family: "Inter", sans-serif;
+}
+
+.select:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.button {
+  /* background-color: #65AC77; */
+  border: none;
+  height: 25px;
+  border-radius: 7px;
+  /* color: #034122; */
+  font-size: 15px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+}
+
+
+/* GREEN-THEME */
+
+body.green {
+  background-color: var(--g-main-bg);
+  color: var(--g-text-color);
+}
+
+body.green .container {
+  background-color: rgba(212, 212, 212, 0.68);
+}
+
+body.green .one-convert{
+  color: var(--g-text-color);
+}
+
+body.green .theme{
+  background-color: var(--g-button);
+}
+
+body.green .amount {
+  background-color: var(--g-input-file);
+}
+
+body.green .input {
+  background-color: var(--g-input-file);
+  color: var(--g-text-color);
+}
+
+body.green .result {
+  background-color: var(--g-input-file);
+  color: var(--g-text-color);
+}
+
+body.green .select{
+  background-color: var(--g-input-file);
+  color: var(--g-second-text-color);
+}
+
+body.green .button {
+  background-color: var(--g-button); 
+  color: var(--g-text-color);
+}
+
+
+
+/* PINK-THEME */
+
+body.pink {
+  background-color: var(--p-main-bg);
+  color: var(--p-text-color);
+}
+
+body.pink .container {
+  background-color: rgba(228, 205, 221, 0.68);
+}
+
+body.pink .one-convert{
+  color: var(--p-text-color);
+}
+
+body.pink .theme{
+  background-color: var(--p-button);
+}
+
+body.pink .amount {
+  background-color: var(--p-input-file);
+}
+
+body.pink .input {
+  background-color: var(--p-input-file);
+  color: var(--p-text-color);
+}
+
+body.pink .result {
+  background-color: var(--p-input-file);
+  color: var(--p-text-color);
+}
+
+body.pink .select{
+  background-color: var(--p-input-file);
+  color: var(--p-second-text-color);
+}
+
+body.pink .button {
+  background-color: var(--p-button); 
+  color: var(--p-text-color);
+}
