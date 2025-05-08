@@ -66,8 +66,8 @@ A simple and responsive currency converter app that allows users to convert betw
 │   └── style.css
 ├── server.js
 ├── .env
-└── README.md``` 
-
+└── README.md
+```
 
 ## 🧪 Notes
 The app uses fetch('/api/...') to access currency data from a backend route.
