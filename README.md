@@ -33,30 +33,31 @@ A simple and responsive currency converter app that allows users to convert betw
 
 ### Installation
 
-1. Clone the repository:
+#### 1. Clone the repository:
 
-```bash
 git clone https://github.com/your-username/money-money.git
 
-2. Navigate into the project folder: 
+#### 2. Navigate into the project folder: 
 
-```bash
-   cd money-money
-
-
-Install dependencies:
-   npm install
+cd money-money
 
 
-Start the development server:
-   npm start
+#### 3. Install dependencies:
+
+npm install
 
 
-Open your browser and go to:
-   http://localhost:3000
+#### 4. Start the development server:
+
+npm start
+
+
+#### 5. Open your browser and go to:
+
+http://localhost:3000
    
 
-📁 Project Structure
+## 📁 Project Structure
 money-money/
 ├── public/
 │   └── index.html
@@ -68,7 +69,7 @@ money-money/
 └── README.md
 
 
-🧪 Notes
+## 🧪 Notes
 The app uses fetch('/api/...') to access currency data from a backend route.
 
 Your API key is stored in .env and used server-side for security.
