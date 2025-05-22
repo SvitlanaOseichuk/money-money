@@ -69,8 +69,8 @@ async function convertCurrency() {
   }
 
   localStorage.setItem('amount', amount);
-  localStorage.setItem('from', from);
-  localStorage.setItem('to', to);
+  localStorage.setItem('fromCurrency', from);
+  localStorage.setItem('toCurrency', to);
   localStorage.setItem('convertedAmount', resultText.textContent);
   localStorage.setItem('convertedText', oneConvert.textContent);
 }
