@@ -61,8 +61,7 @@ A simple and responsive currency converter app that allows users to convert betw
  ```money-money/
 ├── public/
 │   └── index.html
-├── src/
-│   ├── main.js
+│   └── main.js
 │   └── style.css
 ├── server.js
 ├── .env
